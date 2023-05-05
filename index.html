@@ -47,8 +47,6 @@
                         </thead>
                         <tbody>
                             <script>
-                            $(document).ready(function () {
-                                // FETCHING DATA FROM JSON FILE
                                 $.getJSON("39562616.json", function (data) {
                                     var opinion = '';
                                     // ITERATING THROUGH OBJECTS
@@ -84,8 +82,7 @@
                                     });
                                     //INSERTING ROWS INTO TABLE 
                                     $('#opinions').append(opinion);
-                                });
-                            });    
+                                });    
                             </script>
                         </tbody>
                     </table>
