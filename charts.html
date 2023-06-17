@@ -51,7 +51,7 @@
                                 labels: stars.map(row => row.stars),
                                 datasets: [
                                     {
-                                        label: 'Histogram liczby gwiazdek',
+                                        label: 'Liczba opinii',
                                         data: stars.map(row => row.count),
                                         backgroundColor: stars.map(row => row.bgcolor),
                                         borderColor: stars.map(row => row.bgborder),
@@ -77,7 +77,7 @@
                                     }
                                 },
                                 y: {
-                                    ticks: {
+                                    title: {
                                         display: true,
                                         text: "Liczba opinii"
                                     }
